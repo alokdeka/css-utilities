@@ -1,0 +1,51 @@
+[data-reveal] {
+  opacity: 0;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+  transition-property: opacity, transform;
+}
+
+[data-reveal="up"] {
+  transform: translateY(30px);
+}
+
+[data-reveal="down"] {
+  transform: translateY(-30px);
+}
+
+[data-reveal="left"] {
+  transform: translateY(30px);
+}
+
+[data-reveal="right"] {
+  transform: translateY(-30px);
+}
+
+[data-delay="0"] {
+  transition-delay: 0ms;
+}
+
+[data-delay="100"] {
+  transition-delay: 100ms;
+}
+
+[data-delay="200"] {
+  transition-delay: 200ms;
+}
+
+[data-delay="300"] {
+  transition-delay: 300ms;
+}
+
+[data-delay="400"] {
+  transition-delay: 400ms;
+}
+
+[data-delay="500"] {
+  transition-delay: 500ms;
+}
+
+[data-reveal="revealed"] {
+  opacity: 1;
+  transform: none;
+}
